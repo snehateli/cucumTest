@@ -1,0 +1,176 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "",
+        "description": "",
+        "id": "user-login-functionality;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17043985134,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated to the gmail page",
+            "match": {
+              "location": "StepDefinition.user_is_navigated_to_the_gmail_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2544159605,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters valid \"23snehateli@gmail.com\" and \"iraashishjaiswal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "23snehateli@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "iraashishjaiswal",
+                  "offset": 47
+                }
+              ],
+              "location": "StepDefinition.user_enters_valid(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 241522,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is logged in successfully",
+            "match": {
+              "location": "StepDefinition.user_is_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 125198931,
+              "error_message": "org.openqa.selenium.InvalidSelectorException: invalid selector: Compound class names not permitted\n  (Session info: chrome\u003d89.0.4389.90)\n  (Driver info: chromedriver\u003d89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform\u003dWindows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 94 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00272.53.0\u0027, revision: \u002735ae25b1534ae328c771e0856c93e187490ca824\u0027, time: \u00272016-03-15 10:43:46\u0027\nSystem info: host: \u0027USER-PC\u0027, ip: \u0027192.168.1.29\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_281\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:53750}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}), userDataDir\u003dC:\\Users\\USER\\AppData\\Local\\Temp\\scoped_dir1212_1600815197}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d89.0.4389.90, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: 58bbd46b4aa6c417de264b22687b3421\n*** Element info: {Using\u003dclass name, value\u003da8c37x1j ni8dbmo4 stjgntxs l9j0dhe7 ltmttdrg g0qnabr5}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:477)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:391)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat StepDefn.StepDefinition.user_name_is_populated(StepDefinition.java:52)\r\n\tat ✽.And user name is populated \"sneha\"(feature1.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "user name is populated \"sneha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sneha",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.user_name_is_populated(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "",
+        "description": "",
+        "id": "user-login-functionality;;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29200436930,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated to the gmail page",
+            "match": {
+              "location": "StepDefinition.user_is_navigated_to_the_gmail_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9809798010,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters valid \"ashishank.20097@gmail.com\" and \"17@november\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ashishank.20097@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "17@november",
+                  "offset": 51
+                }
+              ],
+              "location": "StepDefinition.user_enters_valid(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 250417,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is logged in successfully",
+            "match": {
+              "location": "StepDefinition.user_is_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7761423053,
+              "error_message": "org.openqa.selenium.InvalidSelectorException: invalid selector: Compound class names not permitted\n  (Session info: chrome\u003d89.0.4389.90)\n  (Driver info: chromedriver\u003d89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform\u003dWindows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 6.94 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00272.53.0\u0027, revision: \u002735ae25b1534ae328c771e0856c93e187490ca824\u0027, time: \u00272016-03-15 10:43:46\u0027\nSystem info: host: \u0027USER-PC\u0027, ip: \u0027192.168.1.29\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_281\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:53780}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, webauthn:extension:largeBlob\u003dtrue, unexpectedAlertBehaviour\u003dignore, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}), userDataDir\u003dC:\\Users\\USER\\AppData\\Local\\Temp\\scoped_dir11152_332655485}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d89.0.4389.90, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: 73894dd80e1fe2aca47f8a1b08006a96\n*** Element info: {Using\u003dclass name, value\u003da8c37x1j ni8dbmo4 stjgntxs l9j0dhe7 ltmttdrg g0qnabr5}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:477)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:391)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat StepDefn.StepDefinition.user_name_is_populated(StepDefinition.java:52)\r\n\tat ✽.And user name is populated \"ashish\"(feature1.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "user name is populated \"ashish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ashish",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.user_name_is_populated(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "User login functionality",
+    "description": "",
+    "id": "user-login-functionality",
+    "keyword": "Feature",
+    "uri": "feature1.feature"
+  }
+]
